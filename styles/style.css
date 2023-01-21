@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Titillium+Web&display=swap");
+:root {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #11324d;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Titillium Web", sans-serif;
+}
+
+#Wpoets .container {
+  margin-top: 90px;
+}
+#Wpoets .container h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  color: white;
+}
+#Wpoets .container p {
+  color: #d4d3d8;
+  font-size: 24px;
+}
+#Wpoets .container .row {
+  display: flex;
+  justify-content: center;
+}
+#Wpoets .container .row .column1 {
+  background: #f6f6f6;
+}
+#Wpoets .container .row .column1 ul {
+  padding: 0;
+}
+#Wpoets .container .row .column1 ul li {
+  list-style: none;
+}
+#Wpoets .container .row .column1 ul li .box {
+  background: white;
+  margin: 36px 0;
+  padding: 12px 18px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  justify-content: space-between;
+}
+#Wpoets .container .row .column1 ul li .box .content {
+  display: flex;
+}
+#Wpoets .container .row .column1 ul li .box .content img {
+  width: 64px;
+}
+#Wpoets .container .row .column1 ul li .box .content h4 {
+  margin: 0;
+  color: #11324d;
+  margin: 12px;
+}
+#Wpoets .container .row .column1 ul li i {
+  position: relative;
+  left: 40%;
+  color: #f6f6f6;
+  position: relative;
+  top: -90px;
+  left: 161px;
+}
+#Wpoets .container .row .column1 ul li .buttonMobile img {
+  display: none;
+}
+#Wpoets .container .row .column1 ul .fa-caret-up {
+  display: none;
+}
+#Wpoets .container .row .column1 ul .mobileContent {
+  display: none;
+}
+#Wpoets .container .row .column2 {
+  background: #64b4c8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#Wpoets .container .row .column2 h6 {
+  color: #f6f6f6;
+  background: #adadad;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+#Wpoets .container .row .column2 h2 {
+  color: white;
+  font-weight: 700;
+}
+#Wpoets .container .row .column2 .learnMore p {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+#Wpoets .container .row .column2 .learnMore i {
+  color: white;
+  width: 24px;
+  margin-left: 24px;
+}
+#Wpoets .container .row .column3 {
+  padding: 0;
+}
+#Wpoets .container .row .column3 img {
+  max-width: 100%;
+  min-height: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  #Wpoets .container .row .column1 ul li i {
+    display: none;
+  }
+  #Wpoets .container .row .column1 ul li .box .content img {
+    width: 64px;
+  }
+  #Wpoets .container .row .column1 ul li .buttonMobile img {
+    display: block;
+  }
+  #Wpoets .container .row .column1 ul .mobileContent {
+    display: block;
+    height: 300px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    position: relative;
+    top: -57px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #Wpoets .container .row .column1 ul .mobileContent h6 {
+    color: #f6f6f6;
+    background: #adadad;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  #Wpoets .container .row .column1 ul .mobileContent h2 {
+    color: white;
+    font-weight: 700;
+    background: #11324d;
+  }
+  #Wpoets .container .row .column1 ul .fa-caret-up {
+    display: block;
+    position: relative;
+    top: -40px;
+  }
+  #Wpoets .container .row .column2,
+#Wpoets .container .row .column3 {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
